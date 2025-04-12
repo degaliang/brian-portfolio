@@ -60,7 +60,7 @@ const EmailSection = () => {
                 </h5>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
                     {" "}
-                    I&apos;am currently looking for new opportunities, my inbox is always open. 
+                    I&apos;m currently looking for new opportunities, my inbox is always open. 
                     Whether you have a question or just want to say hi, I will get back to you as soon as possible!
                 </p>
                 <div className='socials flex flex-row gap-2'>
@@ -75,7 +75,7 @@ const EmailSection = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <form className='flex flex-col' onSubmit={handleSubmit}>
                     <div className='mb-6'>
                         <label htmlFor='email' className='text-white mb-2 block text-sm font-medium'>
@@ -107,13 +107,11 @@ const EmailSection = () => {
                         emailSubmitted && (
                             <p className="text-primary-400 text-sm mt-2">
                                 Email sent successfully!
-                                {/* My personal domain is still being configured. Please contact me directly
-                                via the address degaliang@gmail.com */}
                             </p>
                         )
                     }
                 </form>
-            </div>
+            </div> */}
         </section>
     )
 };
