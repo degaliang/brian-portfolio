@@ -53,6 +53,8 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Set NEXT_PUBLIC_BASE_PATH
+        run: echo "NEXT_PUBLIC_BASE_PATH=/brian-portfolio" >> $GITHUB_ENV
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
