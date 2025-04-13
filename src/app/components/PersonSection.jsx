@@ -39,7 +39,7 @@ const PersonSection = () => {
                         </button>
                     </Link>
                     
-                    <a href="/resume.pdf">
+                    <a href={`${prefix}/resume.pdf`}>
                         <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white bg-gradient-to-r from-primary-500 to-secondary-500 mt-3">
                             <span className="block bg-black hover:bg-slate-800 rounded-full px-5 py-2 border">Resume</span>
                         </button>
