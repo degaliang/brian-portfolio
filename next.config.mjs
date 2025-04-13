@@ -5,8 +5,8 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '',        // keep this empty for root deployment
-    assetPrefix: '',     // keep this empty for root deployment
+    basePath: '/brian-portfolio',
+    assetPrefix: '/brian-portfolio',
 };
   
 export default nextConfig;
