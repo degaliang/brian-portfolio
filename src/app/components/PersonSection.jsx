@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
-import { prefix } from '../prefix';
+import { prefix } from '../prefix'; // required for resolving asset path when deployed on Github Pages
 
 const PersonSection = () => {
   return (
@@ -21,7 +21,7 @@ const PersonSection = () => {
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
                             'a Mechanical Engineer ',
                             1000,
-                            'a Automotive Technician',
+                            'an Automotive Technician',
                             1000,
                         ]}
                         wrapper="span"
